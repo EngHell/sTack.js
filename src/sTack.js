@@ -63,7 +63,7 @@
                 this.stackQueue.splice( this.top );
                 this.top--;
             } else {
-                throw new Error( "Stack is emptry" );
+                throw new Error( "Stack is empty" );
             }
         }
 
