@@ -86,8 +86,15 @@
     sTack._sTack = previousStack;
 
     // we expose our element to the root object
-    root.sTack = sTack;
-
-
+    // this adds compatibility to node.js
+    // borrowed from underscore.js :)
+    if (typeof exports !== 'undefined') {
+        if (typeof module !== 'undefined' && module.exports) {
+            exports = module.exports = sTack;
+        }
+        exports.sTack = sTack;
+    } else {
+        root.sTack = sTack;
+    }
     
 })();
