@@ -70,6 +70,7 @@
     
     sTack.fn.init = function( first_element, size ){
         var self = this;
+        self.version = Version;
         self.size = size || -1;
         self.top = -1;
         self.stackQueue = [];
