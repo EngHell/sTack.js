@@ -15,10 +15,12 @@
     var previousStack = root.sTack;
 
     // We define some vars for speed improvise
-    var ArrayProto = Array.prototype;
+    // var ArrayProto = Array.prototype;
+    // to be used later
 
     // same here
-    var aPush = ArrayProto.push;
+    // var aPush = ArrayProto.push;
+    // may used later
 
     //local sTack variable
     var sTack = function( first_element, size ){
@@ -36,7 +38,6 @@
 
         isEmpty: function () {
             // if top equal 0 its empty, so ez
-            var size = this.size;
             return ( this.top == -1 );
         },
 
@@ -57,7 +58,7 @@
             }
         },
 
-        pop: function( element ) {
+        pop: function( ) {
             if( !this.isEmpty() ) {
                 this.stackQueue.splice( this.top );
                 this.top--;
@@ -82,7 +83,7 @@
     sTack.fn.init.prototype = sTack.prototype;
 
     // if there was another instace of stack we encapsulate it
-    sTack._sTack = root.sTack;
+    sTack._sTack = previousStack;
 
     // we expose our element to the root object
     root.sTack = sTack;
