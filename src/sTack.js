@@ -54,7 +54,7 @@
                 this.stackQueue.push( element );
                 this.top++;
             } else {
-                throw new Error( "Stack is full" );
+                throw new Error( "Stack is full. Stack size is: " + this.size );
             }
         },
 
