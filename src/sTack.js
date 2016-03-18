@@ -81,6 +81,10 @@
     // since we return a instance of sTack.fn.init
     sTack.fn.init.prototype = sTack.prototype;
 
+    // if there was another instace of stack we encapsulate it
+    sTack._sTack = root.sTack;
+
+    // we expose our element to the root object
     root.sTack = sTack;
 
 
