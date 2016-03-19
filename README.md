@@ -16,7 +16,7 @@ var fixedStack = sTack( 1, 10 );
 
 // fillimg the stack with a foor loop
 // we start from since element 0 of stack is 1 already
-for(var i = 1; i<stack.size; i++){
+for(var i = 1; i<fixedStack.size; i++){
   fixedStack.push( i+1 );
 }
 
