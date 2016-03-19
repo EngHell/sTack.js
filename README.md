@@ -12,7 +12,7 @@ stack.push(2);
 ###Fixed size stacks:
 ```javascript
 //we create a stack with a first element of 1 and a fixed size of 10
-var fixedStack = stack( 1, 10 );
+var fixedStack = sTack( 1, 10 );
 
 // fillimg the stack with a foor loop
 // we start from since element 0 of stack is 1 already
