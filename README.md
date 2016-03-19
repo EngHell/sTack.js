@@ -53,3 +53,6 @@ Returns and remove the element at top of the stack. Throws an error if the stack
 
 ### .push()
 Push a new element to the stack, if it's a fixed size stack and it's full throws an error.
+
+##TODO:
+* Add Queues
