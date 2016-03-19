@@ -1,5 +1,6 @@
 # Simple javascript sTack.js structure
-Simple javascript Stack structure. No dependencies, runs in browser and NODE.js
+Simple javascript Stack structure. No dependencies, runs in browser and NODE.js.
+So far this is more a wrapper of the actual array methods, and used as educational project, but can be used in production.
 
 ## Example
 ### Non-fixed stacks:
