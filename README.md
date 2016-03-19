@@ -1,4 +1,5 @@
-# Simple javascript sTack.js stucture
+# Simple javascript sTack.js structure
+Simple javascript Stack structure
 
 ## Example
 ### Non-fixed stacks:
