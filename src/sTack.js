@@ -60,8 +60,8 @@
 
         pop: function( ) {
             if( !this.isEmpty() ) {
-                this.stackQueue.splice( this.top );
                 this.top--;
+                return this.stackQueue.pop();
             } else {
                 throw new Error( "Stack is empty" );
             }
