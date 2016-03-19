@@ -1,5 +1,5 @@
 # Simple javascript sTack.js structure
-Simple javascript Stack structure
+Simple javascript Stack structure. No dependencies, runs in browser and NODE.js
 
 ## Example
 ### Non-fixed stacks:
